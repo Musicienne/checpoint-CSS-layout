@@ -1,0 +1,161 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: grey;
+}
+
+h2{
+    color: grey;
+}
+
+#docplanner{
+    color: rgba(8, 211, 133, 0.712);
+}
+
+.discripion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.dis{
+    width: 46%;
+    color: gray;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(0, 128, 85);
+}
+
+.cardList{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 240px;
+    width: 24%;
+}
+
+.green{
+    background-color: rgb(3, 173, 116);
+    border-radius: 10px;
+    color: white;
+}
+
+.blue{
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+    color: white;  
+}
+
+body{
+    padding: 0 200px;
+}
+.black{
+background-color: rgba(15, 14, 14, 0.884);
+border-radius: 10px;
+color: white;
+}
+.Pub{
+    display: flex;
+
+}
+.sponsoring{
+color: green;
+display: flex;
+text-align: bottom;
+}
+.logo-container{
+display: flex;
+justify-content: center;
+}
+.global-container{
+    display: block;
+    width: 100px;
+    height: 100px;
+    color: rgb(143, 218, 143);
+}
+
+
+
+.country{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+.brands {
+    margin: 2.5rem auto 3.125rem;
+}
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7);
+}
+
+.brands__logos .tuotempo img {
+    height: 16px;
+}
+.brands__logos .gipo img {
+    height: 34px;
+}
+.brands h1 {
+    display: flex;
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+}
+
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+.stats__item {
+    background: rgb(128, 240, 225);
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 30px;
+    margin: 50px;
+}
+
+    
+    
